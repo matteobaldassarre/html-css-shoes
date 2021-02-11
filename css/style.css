@@ -13,7 +13,10 @@ img {
 
 /* HEADER */
 header {
-    background-color: black;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    z-index: 1;
 }
 
 /* NAVIGATION MENU */
