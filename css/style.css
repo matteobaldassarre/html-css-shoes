@@ -1,6 +1,69 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik Mono One", Arial, Helvetica, sans-serif;
 }
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+}
+
+/* NAVIGATION MENU */
+ul li {
+    display: inline-block;
+    margin: 20px 15px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: -2px 3px rgba(61, 61, 61, 0.5);
+    cursor: pointer;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* MAIN */
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+    text-align: center;
+    color: yellow;
+    font-size: 2vw;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:nth-last-of-type(2) {
+    background-color: green;
+    color: yellow;
+}
+
+.container:nth-last-of-type(1) {
+    background-color: yellow;
+    color: green;
+}
+
